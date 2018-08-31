@@ -1,0 +1,27 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!--js 的第一种形式，行内的js脚本 -->
+    <h1 onclick="alert('123')">标题</h1>
+    <input type="button" value="click me" >
+
+    
+    <script>
+        //嵌入的脚本，一般会写在body之前
+        alert('demo-alert')
+    </script>
+    <!-- 这是js外部引用的例子 -->
+    <script src='./js/01.js' defer="defer" charset="utf-8"> 
+    </script>
+
+
+</body>
+</html>
